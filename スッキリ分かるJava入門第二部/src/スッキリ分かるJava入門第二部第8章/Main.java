@@ -8,5 +8,10 @@ public class Main {
 		h.name = "ミナト";
 		h.hp = 100;
 		System.out.println("勇者" + h.name + "を生み出しました!");
+		//3.勇者のメソッドを呼び出していく
+		h.sit(5); //この場合は5秒座れ
+		h.slip();
+		h.sit(25);
+		h.run();
 	}
 }
