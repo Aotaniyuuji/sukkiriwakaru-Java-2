@@ -2,8 +2,10 @@ package スッキリ分かるJava入門第二部第9章;
 
 public class Main {
 	public static void main(String[] args) {
-		Hero h = new Hero();
+		Hero h1 = new Hero("ミナト");//コンストラクタは直接呼び出せないので、newするときに引数を指定する
+		System.out.println(h1.name);
 		
-		System.out.println(h.hp);
+		Hero h2 = new Hero();
+		System.out.println(h2.name);
 	}
 }

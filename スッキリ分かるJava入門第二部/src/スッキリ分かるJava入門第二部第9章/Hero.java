@@ -8,8 +8,15 @@ public class Hero {
 		System.out.println(this.name + "は" + sword + "で攻撃した!");
 	}
 	
-	//コンストラクタという
-	public Hero() { //HeroクラスにHero()メソッドを定義することでnewされた直後に自動的に実行される
+	//コンストラクタ1
+	public Hero(String name) { //HeroクラスにHero()メソッドを定義することでnewされた直後に自動的に実行される。nameは毎回異なるので引数で受け取れるようにする
 		this.hp = 100;
+		this.name = name;
+	}
+	
+	//コンストラクタ2(オーバーロード)
+	public Hero() {
+		this.hp = 100;
+		this.name = "ダミー";
 	}
 }
