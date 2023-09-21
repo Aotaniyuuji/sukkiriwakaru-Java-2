@@ -1,17 +1,7 @@
 package スッキリ分かるJava入門第二部第10章;
 
-public class SuperHero {
-	String name = "ミナト";
-	int hp = 100;
+public class SuperHero extends Hero {
 	boolean flying;
-	//戦う
-	public void attack(Matango m) {
-		System.out.println("5ポイントのダメージを与えた!");
-	}
-	//逃げる
-	public void run() {
-		System.out.println(this.name + "は逃げ出した！");
-	}
 	//飛ぶ
 	public void fly() {
 		this.flying = true;
