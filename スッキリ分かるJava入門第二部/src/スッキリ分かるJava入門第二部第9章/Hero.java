@@ -16,7 +16,6 @@ public class Hero {
 	
 	//コンストラクタ2(オーバーロード)
 	public Hero() {
-		this.hp = 100;
-		this.name = "ダミー";
+		this("ダミー");
 	}
 }
