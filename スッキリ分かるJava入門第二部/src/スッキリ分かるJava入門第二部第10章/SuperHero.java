@@ -12,4 +12,8 @@ public class SuperHero extends Hero {
 		this.flying = false;
 		System.out.println("着地した!");
 	}
+	//子クラスでメソッドの上書き(オーバーライド)
+	public void run() {
+		System.out.println(this.name + "は撤退した!");
+	}
 }
