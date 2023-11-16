@@ -12,7 +12,7 @@ public abstract class TangibleAsset {
 		this.color = color;
 	}
 	//メソッド
-	public abstract String getName();
-	public abstract int getPrice();
-	public abstract String gerColor();
+	public String getName() { return this.name; }
+	public int getPrice() { return this.price; }
+	public String gerColor() { return this.color; }
 }
