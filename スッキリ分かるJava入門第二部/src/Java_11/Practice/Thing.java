@@ -1,6 +1,6 @@
 package Java_11.Practice;
 
 public interface Thing {
-	void getWeight();
-	void setWeight();
+	double getWeight();
+	void setWeight(double weight);
 }
