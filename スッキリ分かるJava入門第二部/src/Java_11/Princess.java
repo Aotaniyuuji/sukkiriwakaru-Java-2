@@ -1,5 +1,5 @@
 package Java_11;
 
-public class Princess {
+public interface Princess {
 
 }
