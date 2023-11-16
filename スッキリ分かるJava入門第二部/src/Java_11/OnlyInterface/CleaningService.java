@@ -1,5 +1,7 @@
 package Java_11.OnlyInterface;
 
-public class CleaningService {
-
+public interface CleaningService {
+	Shirt washShirt(Shirt s);
+	Towl washTowl(Towl t);
+	Coat washCoat(Coat c);
 }
